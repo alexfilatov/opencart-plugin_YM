@@ -1,26 +1,23 @@
-﻿Модуль экспорта продукции в Yandex.Market для Opencart 1.5.x
+Module for exporting products to Yandex.Market for Opencart 1.5.x
 =============================================
-Модуль позволяет экспортировать товарные предложения в формате
-YML (Yandex Market Language). Есть возможность выбора продукцию
-каких производителей экспортировать.
-YML основан на стандарте XML (Extensible Markup Language)
-описание формата YML http://partner.market.yandex.ru/legal/tt/
+The module allows you to export product offers in the format
+YML (Yandex Market Language). There is a choice of products
+Which producers to export.
+YML is based on the XML standard (Extensible Markup Language)
+YML format description http://partner.market.yandex.ru/legal/tt/
 
-УСТАНОВКА
+INSTALLATION
 ===================================
-1) Загрузить содержимое папки upload в корень сайта.
+1) Upload the contents of the upload folder to the root of the site.
 
-2) В админке “Дополнения”->”Каналы продвижения” установить “Яндекс.маркет”
+2) In the "Add-ons" administration -> "Promotion channels" (`not sure how this section is named`) install "Yandex.Market"
 
-3) В настройках модуля выбрать статус “Включено”
+3) In the module settings, select the status "Enabled" (or "On")
 
-4) Отметить галочками категории товары которых
-   будут экспортированы в YML-ленту.
+4) Check the product categories which you want to export to YML-file.
 
-5) Отметить галочками производителей товары которых
-   будут экспортированы в YML-ленту.
+5) Mark the manufacturers whose products ill be exported to YML-file.
 
-В поле “Адрес” находится ссылка на YML-ленту. Ее нужно добавить в Яндекс.Вебмастер по адресу:
- http://webmaster.yandex.ua/addurl.xml
-
+In the "Address" field there is a link to the YML-tape. You need to add it to Yandex.Webmaster at:
+  Http://webmaster.yandex.ua/addurl.xml
 
